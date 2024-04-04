@@ -35,8 +35,8 @@
     "graphql": "^14.2.1",
     "guid-typescript": "^1.0.9",
     "reflect-metadata": "^0.1.13",
-    "typescript": "^3.3.3",
-    "uuid": "^3.3.2"
+    "typescript": "^5.4.3",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@fluffy-spoon/substitute": "^1.70.0",
