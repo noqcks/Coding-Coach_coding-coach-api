@@ -14,8 +14,8 @@ class AddMentee {
   index = async (context: Context, req: HttpRequest): Promise<void> => {
     context.log('JavaScript HTTP trigger function processed a request.');
 
-    const mentorId = req.query.mentorId;
-    const menteeId = req.query.menteeId;
+    const mentorId = req.query.mentorId?.toString();
+    const menteeId = req.query.menteeId?.toString();
 
     const mentor = new MentorEntity(mentorId, menteeId, 'Gurpreet');
 
