@@ -27,7 +27,7 @@
     "publish:update": "yarn test && yarn build:production && echo \"Publishing '$npm_package_config_azureFunctions_outDir' content to already deployed function app '$npm_package_name'\" && func azure functionapp publish $npm_package_name --prefix $npm_package_config_azureFunctions_outDir"
   },
   "dependencies": {
-    "@azure/functions": "^1.0.1-beta2",
+    "@azure/functions": "^4.4.0",
     "@graphql-modules/core": "^0.7.0",
     "@graphql-modules/di": "^0.7.0",
     "@types/node": "^10.12.24",
