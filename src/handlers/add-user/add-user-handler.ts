@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import uuidv1 from 'uuid/v1';
+import { v1 as uuidv1 } from 'uuid';
 import { Context, HttpRequest } from '@azure/functions';
 import { Inject, Injectable } from '@graphql-modules/di';
 import { IUserRepository, User } from '@repositories/user-repository';
